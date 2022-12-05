@@ -8,7 +8,15 @@ A minimalistic webapp to generate QR Codes for the URLs fed in by the user
 * Simply run the command ***pip install -r requirements.txt*** to install the necessary dependencies.
 
 ## Usage:
-1. Simply run the command: 
+1. Create a new folder `.streamlit` and create a file titled `config.toml` within it. Save this file with the following content:
+```
+[theme]
+primaryColor="#2d4be0"
+backgroundColor="#f9f4f4"
+secondaryBackgroundColor="#e4edff"
+textColor="#3a6ae4"
+```
+2. Navigate to the root of the folder and simply run the command: 
 ```
 streamlit run app.py
 ```
